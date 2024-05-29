@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stock-dcbot"
+version = "0.1.0"
+description = "A python wrapper for discord api"
+authors = ["kcma1225 <157051689+kcma1225@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
